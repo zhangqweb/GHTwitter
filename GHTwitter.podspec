@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GHTwitter'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'one GHTwitter.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'GHTwitter/Frameworks/TwitterKit.framework','GHTwitter/Frameworks/TwitterCore.framework'
- 
-
-  s.xcconficdg = {
+  
+  s.xcconfig = {
   'VALID_ARCHS' =>  'armv7 arm64 x86_64',
   }
 
