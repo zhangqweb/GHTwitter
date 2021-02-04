@@ -28,11 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhangqweb/GHTwitter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0' 
-  s.vendored_frameworks = 'GHTwitter/GHTwitter/Frameworks/TwitterKit.framework','GHTwitter/GHTwitter/Frameworks/TwitterCore.framework'
+  s.ios.deployment_target = '10.0'
+  s.vendored_frameworks = 'GHTwitter/Frameworks/TwitterKit.framework','GHTwitter/Frameworks/TwitterCore.framework'
  
 
-  s.xcconfig = {
+  s.xcconficdg = {
   'VALID_ARCHS' =>  'armv7 arm64 x86_64',
   }
 
