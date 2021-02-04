@@ -1,0 +1,16 @@
+PODS:
+  - GHTwitter (1.0.0)
+
+DEPENDENCIES:
+  - GHTwitter (from `../`)
+
+EXTERNAL SOURCES:
+  GHTwitter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHTwitter: a99d06cd5ff6b976c7135762c4ebc93f076b76ab
+
+PODFILE CHECKSUM: d368d3356c1afa9a84f30e4f24ad460b4127e01a
+
+COCOAPODS: 1.10.1

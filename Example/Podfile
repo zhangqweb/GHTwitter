@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GHTwitter_Example' do
+  pod 'GHTwitter', :path => '../'
+
+  target 'GHTwitter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
